@@ -37,11 +37,11 @@ You'll build and deploy a Data Science API. You'll work cross-functionally with 
 
 [Create a new repository from this template.](https://github.com/Lambda-School-Labs/ds-bw/generate)
 
-Clone the repo
+1. Clone the repo
 ```
 git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
 
-cd YOUR-REPO-NAME
+2. cd YOUR-REPO-NAME
 ```
 
 Install dependencies
@@ -49,21 +49,21 @@ Install dependencies
 pipenv install --dev
 ```
 
-Activate the virtual environment
+3. Activate the virtual environment
 ```
 pipenv shell
 ```
 
-Launch the app
+4. Launch the app (from cmd like... VS code)
 ```
 uvicorn app.main:app --reload
 ```
 
-Go to `localhost:8000` in your browser.
+5. Go to `localhost:8000` in your browser.
 
 ![image](https://user-images.githubusercontent.com/7278219/87965040-c18ba300-ca80-11ea-894f-d51a69d52f8a.png)
 
-You'll see your API documentation:
+6. You'll see your API documentation:
 
 - Your app's title, "DS API"
 - Your description, "Lorem ipsum"
