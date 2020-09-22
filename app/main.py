@@ -5,8 +5,8 @@ import uvicorn
 from app.api import predict, viz
 
 app = FastAPI(
-    title='DS API',
-    description='Lorem ipsum',
+    title='Airbnb DS API',
+    description='This is the fast-API for DS team.<br> -Henry Gultom-',
     version='0.1',
     docs_url='/',
 )
