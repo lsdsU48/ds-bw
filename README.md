@@ -44,6 +44,10 @@ git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
 2. cd YOUR-REPO-NAME
 ```
 
+### The directory to run vs code: U4-BW/
+### Make sure you have directory U4-BW/airbnb/
+### All apps  are under that directory  U4-BW/airbnb/
+
 Install dependencies
 ```
 pipenv install --dev
