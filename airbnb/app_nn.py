@@ -32,5 +32,5 @@ def predict(Property_type: str = 'Apartment', Room_type:str ='Private room',  Ac
     res = {
             "predicted_price"   : round(float(pred),1)
         }
-
+        
     return res

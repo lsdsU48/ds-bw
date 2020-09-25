@@ -74,9 +74,6 @@ nn2.compile(loss='mse',
 
 
 
-
-
-
 # FITTING 
 history = nn2.fit(X_train_encoded, y_train, 
                   epochs= 30,
@@ -87,7 +84,6 @@ history = nn2.fit(X_train_encoded, y_train,
 # predicted value
 y_pred = nn2.predict(X_train_encoded)
 
-# nn2.summary()
 
 # y_pred
 y_pred = nn2.predict(X_test_encoded)
@@ -106,7 +102,6 @@ print('MAE   :', mae_nn2)
 print('MSE   :', mse_nn2)
 print('RMSE  :', rmse_nn2)
 print('R^2 = :', r2_nn2)
-
 
 
 # Price prediction based on single row inputs ..........
