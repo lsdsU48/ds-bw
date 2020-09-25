@@ -19,7 +19,7 @@ plotly = "*"
 sklearn = "*"
 keras = "*"
 category_encoders = "*"
-tensorflow = "2.3"
+tensorflow = "2.3.0"
 
 [requires]
 python_version = "3.7"
